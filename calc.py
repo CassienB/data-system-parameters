@@ -8,8 +8,7 @@ def main():
         return int(sys.argv[1]) + int(sys.argv[3])
     if sys.argv[2] == '-':
         return int(sys.argv[1]) - int(sys.argv[3])
-    else:
-        return int(sys.argv[1]) * int(sys.argv[3])
+    return int(sys.argv[1]) * int(sys.argv[3])
 
 
 if __name__ == "__main__":
